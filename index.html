@@ -80,24 +80,23 @@
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat.
           </p>
-          <div class="members-list">
-            <!-- member-item -->
-            <div class="member-item">
+          <div class="row members-list">
+            <!-- member- item -->
+            <div class="col col-third member-item text-center">
               <p class="member-name">Name</p>
               <img class="member-img" src="./assets/img/band.jpg" alt="" />
             </div>
-            <!-- member-item -->
-            <div class="member-item">
+            <!-- member- item -->
+            <div class="col col-third member-item text-center">
               <p class="member-name">Name</p>
               <img class="member-img" src="./assets/img/band.jpg" alt="" />
             </div>
-            <!-- member-item -->
-            <div class="member-item">
+            <!-- member- item -->
+            <div class="col col-third member-item text-center">
               <p class="member-name">Name</p>
               <img class="member-img" src="./assets/img/band.jpg" alt="" />
             </div>
             <!-- Class Trong day ovh -->
-            <div class="clear"></div>
           </div>
         </div>
         <!-- Tour Sectiton -->
@@ -115,9 +114,9 @@
               <li>November <span class="quantity">3</span></li>
             </ul>
             <!-- Places -->
-            <div class="places-list">
+            <div class="row places-list">
               <!-- placte-item -->
-              <div class="place-item">
+              <div class="col col-third">
                 <img
                   src="./assets/img/newyork.jpg"
                   alt="New York"
@@ -129,11 +128,11 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                  <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                 </div>
               </div>
               <!-- placte-item -->
-              <div class="place-item">
+              <div class="col col-third">
                 <img
                   src="./assets/img/paris.jpg"
                   alt="New York"
@@ -145,11 +144,11 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                  <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                 </div>
               </div>
               <!-- placte-item -->
-              <div class="place-item">
+              <div class="col col-third">
                 <img
                   src="./assets/img/sanfran.jpg"
                   alt="New York"
@@ -161,25 +160,63 @@
                   <p class="place-desc">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button href="#" class="place-buy-btn js-buy-ticket">Buy Tickets</button>
+                  <button href="#" class="btn js-buy-ticket">Buy Tickets</button>
                 </div>
               </div>
-              <div class="clear"></div>
             </div>
           </div>
         </div>
 
-        <!-- Contact Sectiton -->
+        <!-- BEGIN Contact Sectiton -->
         <div class="content-section">
           <h2 class="section-heading">CONTACT</h2>
           <p class="section-sub-heading">We love our fans!</p>
+          <div class="row contact-content">
+            <div class="col col-harf contact-info">
+              <p><i class="ti-location-pin"></i>Chicago, US</p>
+              <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+              <p><i class="ti-email"></i>Email: mail@mail.com</p>
+            </div>
+            <div class="col col-harf contact-form">
+              <form action="">
+                <!-- ROW 2 INPUT -->
+                <div class="row">
+                  <div class="col col-harf">
+                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                  </div>
+                  <div class="col col-harf">
+                    <input type="email" name="" placeholder="Email"required id="" class="form-control">
+                  </div>
+                </div>
+                <!-- ROW 1 INPUT -->
+                <div class="row mt-8">
+                  <div class="col col-full">
+                    <input type="text" name="" placeholder="Message"required id="" class="form-control">
+                  </div>
+                </div>
+                <input class="btn pull-right mt-16" type="submit" value="SEND">
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="content-section"></div>
-        <div class="content-section"></div>
+        <!-- END Contact Sectiton -->
+        <div class="map-section">
+          <img src="./assets/img/map.jpg" alt="">
+        </div>
       </div>
       <!-- End Content -->
       <!-- Begin Footer -->
-      <div id="footer"></div>
+      <div id="footer">
+        <div class="social-list">
+          <a href=""><i class="ti-facebook"></i></a>
+          <a href=""><i class="ti-instagram"></i></a>
+          <a href=""><i class="ti-youtube"></i></a>
+          <a href=""><i class="ti-pinterest"></i></a>
+          <a href=""><i class="ti-twitter"></i></a>
+          <a href=""><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copyright">Power by <a href="https://www.w3schools.com/w3css/tryw3css_templates_band.htm">w3.css</a></p>
+      </div>
       <!-- End Footer -->
     </div>  
     <!-- BEGIN - MODAL -->
