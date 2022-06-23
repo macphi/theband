@@ -65,8 +65,7 @@ html {
 }
 
 /* MAIN */
-#main {
-}
+
 /*Begin--Header */
 #header {
   position: fixed;
@@ -76,6 +75,7 @@ html {
   height: 46px;
   background-color: #000;
   z-index: 1;
+  overflow: hidden;
 }
 /* Nav */
 #nav {
@@ -132,11 +132,26 @@ html {
   cursor: pointer;
   background-color: #f44336;
 }
+#header .mobile-menu-btn:hover{
+  background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon{
+  color: black;
+}
 /* Header search */
+#header .mobile-menu-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
   float: right;
   padding: 0 21px;
 }
+#header .menu-icon,
 #header .search-icon {
   color: #fff;
   line-height: 46px;
@@ -169,13 +184,15 @@ html {
 
 /*End--Slider */
 /*Begin--Content */
-#content {
-}
+
 #content .content-section {
   width: 800px;
   padding: 64px 0 112px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 #content .section-heading {
   text-align: center;
@@ -253,7 +270,7 @@ html {
 .place-img:hover {
   opacity: 0.6;
 }
-.placte-body {
+.place-body {
   padding: 16px;
   font-size: 15px;
   background-color: #fff;

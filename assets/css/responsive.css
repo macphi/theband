@@ -1,0 +1,26 @@
+/* PC ( TABLET PRO ) 1024px tro len */
+@media (min-width: 1024) {
+}
+/* Tablet  740px - 1023px*/
+@media (min-width: 740px) and (max-width: 1023px) {
+  #nav > li {
+  }
+}
+/* Mobile duoi 740 */
+@media (max-width: 740px) {
+  #nav > li {
+    display: block;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #header .mobile-menu-btn {
+    display: block;
+  }
+  #header .search-btn {
+    display: none;
+  }
+  #nav {
+    display: block;
+  }
+}
