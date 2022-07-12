@@ -8,11 +8,15 @@
 }
 /* Mobile duoi 740 */
 @media (max-width: 740px) {
-  #nav > li {
-    display: block;
+  .s-full-width,
+  .s-col-full {
+    width: 100%;
   }
-  #nav > li:first-child {
-    display: inline-block;
+  .s-mt-8 {
+    margin-top: 16px;
+  }
+  #header {
+    overflow: hidden;
   }
   #header .mobile-menu-btn {
     display: block;
@@ -22,5 +26,29 @@
   }
   #nav {
     display: block;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav > li {
+    padding: 1px 24px;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 45px;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #content .member-img {
+    width: 60%;
+  }
+  .contact-form {
+    margin-top: 16px;
   }
 }

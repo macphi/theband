@@ -40,6 +40,9 @@ html {
 .mt-16 {
   margin-top: 16px !important;
 }
+.mt-32 {
+  margin-top: 32px !important;
+}
 .row {
   margin-left: -8px;
   margin-right: -8px;
@@ -75,7 +78,7 @@ html {
   height: 46px;
   background-color: #000;
   z-index: 1;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* Nav */
 #nav {
@@ -124,6 +127,7 @@ html {
 #nav .subnav li:hover {
   color: #000;
   background-color: #ccc;
+  width: 100%;
 }
 #nav li:hover .subnav {
   display: block;
@@ -215,7 +219,7 @@ html {
 }
 /* members-list item */
 #content .members-list {
-  margin-top: 48px;
+  margin-top: 32px;
 }
 
 #content .member-name {
@@ -260,7 +264,7 @@ html {
 }
 /* (Place) */
 .places-list {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .place-img {
